@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="icon" type="image/x-icon" href="favicon-whatsapp.ico">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+    <main>
+        <div class="register-box">
+            <div class="logo">
+                <i class="ri-whatsapp-line"></i>
+                <h1>Chat App Clone</h1>
+            </div>
+            <form  id="register-form">
+                <div class="input-group">
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" name="firstName" type="text" required>
+                </div>
+                <div class="input-group">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" name="lastName" type="text" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input id="confirmPassword" name="confirmPassword" type="password" required>
+                </div>
+                <button type="submit" class="register-button">Register</button>
+            </form>
+            <p class="login-link">Already have an account ? &nbsp;<a href="./index.html">Login</a></p>
+        </div>
+    </main>
+    <script src="./dataStore.js"></script>
+    <!-- <script src="./data2.js"></script> -->
+    <script src="./auth.js"></script>
+</body>
+
+</html>
